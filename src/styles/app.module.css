@@ -1,0 +1,27 @@
+.header {
+    background-color: rgb(3,37,65);
+    width: 100%;
+    position: relative;
+    padding: 1em 0;
+}
+
+.header h1,
+.header a {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header h1 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.appContainer {
+    width: 80%;
+    margin: 2em auto;
+}

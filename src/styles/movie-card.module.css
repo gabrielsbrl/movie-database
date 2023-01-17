@@ -1,0 +1,51 @@
+.movieCard {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 30px;
+  width: calc((100vw - 80px - 260px - (30px * 5)) / 5);
+  max-width: calc((1400px - 80px - 260px - (30px * 5)) / 5);
+}
+
+.movieCardDescription {
+  height: 100px;
+  width: 100%;
+  padding: 26px 10px 12px 10px;
+  position: relative;
+  white-space: normal;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.movieCardDescription h2 {
+  font-size: 1em;
+  margin: 0;
+  width: 100%;
+  word-wrap: normal;
+  overflow-wrap: break-word;
+}
+
+.movieCardDescription h2 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
+
+.movieCardDescription h2 a:hover {
+  color: rgb(1,180,228);
+  text-decoration: none;
+}
+
+.mediaReleaseDate {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,0.6);
+}
